@@ -1,0 +1,101 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #319e50;
+}
+.printifyLogo{
+    height: 9rem;
+}
+.icon{
+    margin-left: 8rem;
+}
+.userButton{
+    margin-left: 7rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 5rem;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;  
+    top: 0;           
+    width: 100%;      
+    z-index: 1000;    
+    background-color: white;
+    justify-content: space-around;
+}
+.login{
+    width: 5.4rem;
+    height: 2.3rem;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 0.18rem;
+    border: 0.1px solid rgb(141, 137, 137);
+}
+.login:hover{
+    cursor: pointer;
+    color: #319e50;
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: #277f40;
+}
+.signup{
+    width: 5.4rem;
+    height: 2.3rem;
+    font-weight: 600;
+    font-size: medium;
+    color: white;
+    background-color: #319e50;
+    border: none;
+    border-radius: 0.18rem;
+    margin-left: 1.5rem;
+    
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: fit-content;
+    padding-left: 5rem;
+}
+.li{
+    padding-right: 1.2rem;
+}
+li{
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+@media (max-width:1360px){
+    .icon{
+        margin-left: 0rem;
+    }
+    .userButton{
+        margin: 0px;
+        width: 15rem;
+    }
+}
+@media (max-width:950px){
+    .links{
+       display: none;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+}
+@media (max-width:540px){
+    .printifyLogo{
+        width: 5rem;
+        height: 5rem;
+    }
+    .userButton{
+        width: auto;
+        margin: 0px;
+    }
+}

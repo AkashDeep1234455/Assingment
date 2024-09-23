@@ -1,0 +1,44 @@
+.talktosales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.talktosales-container{
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 4rem 0rem 4rem;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+    border-radius: 2rem;
+    background-color: #E2F7E3;
+    background-image: url("../../../talk-to-sales.svg");
+    background-size:contain; 
+    background-repeat: no-repeat; 
+    background-position:right; 
+}
+.talktosalesbutton{
+    width: 9rem;
+    height: 2.5rem;
+    font-weight: 600;
+    font-size: medium;
+    color: black; 
+    border: none; 
+    cursor: pointer
+}
+.talktosalesbutton:hover{
+    color: #18C75A;
+}
+.talktosalesparagraph{
+    width: 22rem;
+}
+
+@media(max-width:390px){
+    .talktosalesparagraph h2{
+        font-size: 1rem;
+    }
+}

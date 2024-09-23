@@ -1,0 +1,111 @@
+
+.riskfree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    height: 100vh; 
+    margin:15rem 0rem 15rem 0rem;
+    overflow: hidden;
+  }
+  
+ 
+  .riskfree img {
+    width: 35rem;
+    height: 40rem;
+    border-radius: 1rem;
+  }
+  
+ 
+  .riskfree-container {
+    border: 2px solid black;
+    width: 35rem;
+    height: 40rem;
+    background-color: #203741;
+    color: white;
+    border-radius: 1rem;
+    padding: 6rem;
+    position: relative;
+    opacity: 0;
+    transform: translateX(100%); 
+    transition: opacity 1s ease-out, transform 1s ease-out; 
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .riskfree-container.visible {
+    opacity: 1; 
+    transform: translateX(0); 
+  }
+  
+ 
+  .riskfree-container .riskfree-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .riskfree-container .riskfree-box p {
+    color: #dce3e7;
+    margin-bottom: 2rem;
+  }
+  
+  .profit {
+    background-color: #17262b;
+    border-radius: 1rem;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  hr {
+    color: #dce3e7;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sell {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .yourprofit {
+    color: #18c75a;
+    font-size: large;
+    font-weight: 800;
+    margin-bottom: 0rem;
+  }
+  
+  .startselling {
+    background-color: #18c75a;
+    color: white;
+    border: none;
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 0.2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  @media (max-width:1100px) {
+    .riskfreeimage{
+      display: none;
+    }
+  }
+  @media (max-width:520px) {
+    .riskfree-container{
+      padding: 2rem;
+      height: 40rem;
+    }
+   
+  }

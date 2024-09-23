@@ -1,0 +1,122 @@
+.productContainer {
+  margin-top: 6rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.leftProduct {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.productHeading {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.leftProduct ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+li span {
+  color: #319e50;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.buttons button {
+  height: 3rem;
+  width: 9rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.btn1 {
+  border: none;
+  background-color: #319e50;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn2 {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0.5px solid black;
+}
+
+.para {
+  font-size: 1.3rem;
+  color: #319e50;
+}
+
+@media (max-width: 600px) {
+  .productHeading {
+    font-size: 2.5rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .buttons {
+    gap: 1rem;
+  }
+
+  .para {
+    font-size: 1.2rem;
+    color: #319e50;
+  }
+}
+
+.rightProduct {
+  width: 30rem;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 3rem;
+}
+
+.img2 {
+  position: absolute;
+  width: 30%;
+}

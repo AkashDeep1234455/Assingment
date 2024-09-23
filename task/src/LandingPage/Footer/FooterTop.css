@@ -1,0 +1,21 @@
+.FooterTop{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.FooterTopLogo img{
+    width: 9rem;
+}
+
+.FooterTopSocial img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin-left: 1rem;
+}
